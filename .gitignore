@@ -1,0 +1,6 @@
+*.csproj
+*.sln
+YouTubeFromAssetsStore.userprefs
+Temp/
+obj/
+Library/
