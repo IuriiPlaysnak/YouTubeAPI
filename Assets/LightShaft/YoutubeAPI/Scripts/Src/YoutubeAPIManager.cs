@@ -338,6 +338,7 @@ public class YoutubeAPIManager : MonoBehaviour {
     }
 }
 
+[System.Serializable]
 public class YoutubeData
 {
     public YoutubeSnippet snippet;
@@ -346,6 +347,7 @@ public class YoutubeData
     public string id;
 }
 
+[System.Serializable]
 public class YoutubeComments{
     public string authorDisplayName;
     public string authorProfileImageUrl;
@@ -361,12 +363,14 @@ public class YoutubeComments{
     public string updatedAt;
 }
 
+[System.Serializable]
 public class YoutubePlaylistItems
 {
     public string videoId;
     public YoutubeSnippet snippet;
 }
 
+[System.Serializable]
 public class YoutubeChannel
 {
     public string id;
